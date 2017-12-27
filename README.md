@@ -3,7 +3,13 @@ BECAK-iN is a mobile application that provides a variety of application systems 
 
 BECAK-iN is an aspiring online rickshaw and has a mission to be an easy and practical alternative solution used for people to meet the needs of people or goods transportation.
 
+## Demo
 
+<p align="center">
+  <img src="Screenshot_1514006502.png" height="500" alt="" />
+  <img src="Screenshot_1514006520.png" height="500" alt="" />
+  <img src="Screenshot_1514006512.png" height="500" alt="" />
+</p>
 
 ### Download It
 
