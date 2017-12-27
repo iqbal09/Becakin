@@ -6,9 +6,20 @@ BECAK-iN is an aspiring online rickshaw and has a mission to be an easy and prac
 ## Demo
 
 <p align="center">
-  <img src="Screenshot_1514006502.png" height="500" alt="" />
-  <img src="Screenshot_1514006520.png" height="500" alt="" />
-  <img src="Screenshot_1514006512.png" height="500" alt="" />
+  <img src="screenshot/8.png" height="500" alt="" />
+  <img src="screenshot/5.png" height="500" alt="" />
+  <img src="screenshot/7.png" height="500" alt="" />
+</p>
+
+<p align="center">
+  <img src="screenshot/6.png" height="500" alt="" />
+  <img src="screenshot/1.png" height="500" alt="" />
+  <img src="screenshot/3.png" height="500" alt="" />
+</p>
+
+<p align="center">
+  <img src="screenshot/4.png" height="500" alt="" />
+  <img src="screenshot/2.png" height="500" alt="" />
 </p>
 
 ### Download It
