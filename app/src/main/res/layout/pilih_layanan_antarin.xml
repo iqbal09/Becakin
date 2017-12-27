@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Parent linear layout with vertical orientation -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FAFAFA">
+
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="25dip">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/imageView1"
+                    android:src="@drawable/antarin"
+                    android:layout_weight="1" />
+
+
+
+            </LinearLayout>
+
+            <!-- Child linear layout with horizontal orientation -->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="25dip"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/btn_panel_antar_orang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:maxWidth="110dp"
+                    android:maxHeight="110dp"
+                    android:scaleType="fitCenter"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/logo_antarin_orang"
+                    />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:maxWidth="140dp"
+                    android:maxHeight="140dp"
+                    android:scaleType="fitCenter"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/desc_antarin_orang"/>
+
+
+            </LinearLayout>
+
+
+
+
+            <!-- Child linear layout with horizontal orientation -->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="25dip"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/logo_antarin_orang_barang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:maxWidth="110dp"
+                    android:maxHeight="110dp"
+                    android:scaleType="fitCenter"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/logo_antarin_orang_barang" />
+
+                <ImageView
+                    android:id="@+id/txt_antarin_orang_barang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:maxWidth="140dp"
+                    android:maxHeight="140dp"
+                    android:scaleType="fitCenter"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/desc_antarin_orang_barang" />
+
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="becak.online.medan.becakin">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyAD7E4wYRoqXwDs002LPn6FWShl-QpVwfM" />
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+        <activity android:name="becak.online.medan.becakin.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".Layout_Antar"></activity>
+        <activity android:name=".Tentukan_Lokasi_Antar"></activity>
+        <activity android:name=".Layout_Barang"></activity>
+        <activity android:name=".Lokasi_Jemput"></activity>
+        <activity android:name=".Lokasi_Tujuan"></activity>
+        <activity android:name=".PlacePickerActivity"></activity>
+        <activity android:name=".PickerPlace"></activity>
+        <activity android:name=".PanelAntarin"></activity>
+        <activity android:name=".PickerPlaceTujuan"></activity>
+        <activity android:name=".DetailAntar"></activity>
+        <activity android:name=".OrderBerhasil"></activity>
+        <activity android:name=".RegisterActivity"></activity>
+        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".Cominghome"></activity>
+        <activity android:name=".RiwayatOrderan"></activity>
+        <activity android:name=".DetailListOrderan"></activity>
+        <activity android:name=".Pengaturan"></activity>
+        <activity android:name=".Cari_Lokasi_Jemput"></activity>
+        <activity android:name=".Cari_Lokasi_Tujuan"></activity>
+        <activity android:name=".Profil"></activity>
+        <activity android:name=".Password"></activity>
+        <activity android:name=".Help_Feedback"></activity>
+        <activity android:name=".TOS"></activity>
+    </application>
+
+</manifest>

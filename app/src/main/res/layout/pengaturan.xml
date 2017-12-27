@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!-- Parent linear layout with vertical orientation -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+     <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         android:background="#e0e0e0"
+         android:padding="20dp">
+
+            <Button
+                android:id="@+id/btnProfil"
+                android:text="profil"
+                android:textColor="@color/colorPrimary"
+                android:background="#fafafa"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"/>
+
+            <Button
+                android:id="@+id/btnGantiPassword"
+                android:text="ganti password"
+                android:textColor="@color/colorPrimary"
+                android:background="#fafafa"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+
+                />
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="0dp"
+             android:layout_weight="0.5"/>
+
+            <Button
+                android:id="@+id/btnCredit"
+                android:text="BECAK-IN CREDIT"
+                android:textColor="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:background="#fafafa"
+                android:textStyle="bold"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                />
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="0dp"
+             android:layout_weight="0.5"/>
+
+            <Button
+                android:id="@+id/btnTOS"
+                android:text="TERM OF SERVICE"
+                android:textColor="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:background="#fafafa"
+                android:textStyle="bold"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                />
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="0dp"
+             android:layout_weight="0.5"/>
+
+            <Button
+                android:id="@+id/btnRate"
+                android:text="RATE THE APP"
+                android:textColor="@color/colorPrimary"
+                android:background="#fafafa"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                />
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="0dp"
+             android:layout_weight="0.5"/>
+
+            <Button
+                android:id="@+id/btnHELP"
+                android:text="help and feedback"
+                android:textColor="@color/colorPrimary"
+                android:background="#fafafa"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                />
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="0dp"
+             android:layout_weight="0.5"/>
+
+            <Button
+                android:id="@+id/btnLOGOUT"
+                android:background="#fafafa"
+                android:textColor="@color/colorPrimary"
+                android:text="log out"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+

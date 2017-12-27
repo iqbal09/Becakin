@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Parent linear layout with vertical orientation -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F4F4"
+    >
+
+    <!-- Child linear layout with horizontal orientation -->
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dip"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:paddingLeft="8dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RINCIAN ORDER"
+
+            />
+        <View
+            android:background="@drawable/border_abu"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/tv1"
+            />
+
+    </LinearLayout>
+
+    <!-- Child linear layout with horizontal orientation -->
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#FFFFFF">
+
+
+
+        <ImageView android:id="@+id/image_view1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxWidth="15dp"
+            android:maxHeight="15dp"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="3dp"
+            android:src="@drawable/jam"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:paddingLeft="10dp"
+            android:layout_height="wrap_content"
+            android:text="22 Jan, 08:50 AM"
+            android:textColor="#0098DA"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            />
+
+
+
+
+    </LinearLayout>
+
+    <!-- Child linear layout with horizontal orientation -->
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:background="#FFFFFF"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        >
+
+        <ImageView android:id="@+id/image_view2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxWidth="30dp"
+            android:maxHeight="30dp"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="3dp"
+            android:src="@drawable/picker_merah"
+            />
+
+        <TextView
+            android:id="@+id/txt_detail_lokasi_jemput"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="JALAN GAJAH MADA"
+            android:paddingLeft="10dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+           />
+
+
+
+
+
+    </LinearLayout>
+
+    <!-- Child linear layout with horizontal orientation -->
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:background="#FFFFFF"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxHeight="30dp"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="14dp"
+            android:src="@drawable/garis_lurus_putus"
+            />
+
+        <TextView
+            android:id="@+id/display_ancar2_jemput"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Teks untuk deskripsi ancar-ancar"
+            android:paddingLeft="16dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            />
+
+
+
+
+
+    </LinearLayout>
+
+    <!-- Child linear layout with horizontal orientation -->
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:background="#FFFFFF"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxWidth="30dp"
+            android:maxHeight="30dp"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="3dp"
+            android:src="@drawable/picker_hijau"
+            />
+
+        <TextView
+            android:id="@+id/txt_detail_lokasi_tujuan"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="JALAN RAZAK 3"
+            android:paddingLeft="10dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            />
+
+
+
+
+
+    </LinearLayout>
+
+    <!-- Child linear layout with horizontal orientation -->
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:background="#FFFFFF"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxHeight="30dp"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="14dp"
+            android:src="@drawable/garis_lurus_putus"
+            />
+
+        <TextView
+            android:id="@+id/display_ancar2_tujuan"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Teks untuk deskripsi ancar-ancar"
+            android:paddingLeft="16dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+
+    <!-- Child linear layout with horizontal orientation -->
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:paddingBottom="20dp"
+        android:background="#FFFFFF"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxWidth="15dp"
+            android:maxHeight="15dp"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="50dp"
+            android:src="@drawable/calculator"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Total"
+            android:paddingLeft="10dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:id="@+id/txt_detail_harga"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Rp. 20.000"
+            android:paddingLeft="10dp"
+            android:gravity="right"
+            android:layout_marginRight="15dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/lanjutkan"
+        android:layout_width="130dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_selanjutnya" />
+
+
+</LinearLayout>
