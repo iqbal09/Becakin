@@ -42,4 +42,4 @@ Follow me on instagram :)
 1. Ensure that your code adheres to the existing style of the library to which
    you are contributing.
 1. Ensure that your code has an appropriate set of unit tests which all pass.
-1. Submit a pull request and cc @iqbal09
+1. Submit a pull request and cc @iqbalhood
